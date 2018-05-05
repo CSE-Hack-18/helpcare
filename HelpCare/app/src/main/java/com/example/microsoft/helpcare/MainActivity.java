@@ -92,7 +92,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
-        }
+        } //else if (id == R.id.nav_postSurgery){ TO BE ADDRESSED UPON POSTSURGERY CLICK
+
+        //}
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

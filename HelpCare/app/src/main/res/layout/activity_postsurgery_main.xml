@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dietText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <ProgressBar
+        android:id="@+id/dietProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/dietInfoButton"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:text="More Info"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/hygieneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hygiene"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <ProgressBar
+        android:id="@+id/hygieneProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="260dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/hygieneInfoButton"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:text="More Info"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/aftercareText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aftercare"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <ProgressBar
+        android:id="@+id/aftercareProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="259dp"
+        android:layout_height="31dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Button
+        android:id="@+id/aftercareInfoButton"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:text="More Info"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="380dp" />
+</android.support.constraint.ConstraintLayout>
